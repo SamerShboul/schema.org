@@ -1,0 +1,48 @@
+schema-publication-types	name-en	a	Schema.org Publication Types
+schema-publication-types	is-complete	s	true
+schema-publication-types	indexable	s	true
+schema-publication-types	type	a	publication
+schema-thing	primary-en	a	schema.org/Thing
+schema-thing	parent	s	schema-publication-types
+schema-thing	tag-field	s	schema-tag-type	schema
+schema-thing	tag-field	s	schema-uri	https://schema.org/Thing
+schema-creativework	primary-en	a	schema.org/CreativeWork
+schema-creativework	parent	s	schema-thing
+schema-creativework	tag-field	s	schema-tag-type	schema
+schema-creativework	tag-field	s	schema-uri	https://schema.org/CreativeWork
+schema-article	primary-en	a	schema.org/Article
+schema-article	parent	s	schema-creativework
+schema-article	tag-field	s	schema-tag-type	schema
+schema-article	tag-field	s	schema-uri	https://schema.org/Article
+schema-newsarticle	primary-en	a	schema.org/NewsArticle
+schema-newsarticle	parent	s	schema-article
+schema-newsarticle	tag-field	s	schema-tag-type	schema
+schema-newsarticle	tag-field	s	schema-uri	https://schema.org/NewsArticle
+schema-socialmediaposting	primary-en	a	schema.org/SocialMediaPosting
+schema-socialmediaposting	parent	s	schema-article
+schema-socialmediaposting	tag-field	s	schema-tag-type	schema
+schema-socialmediaposting	tag-field	s	schema-uri	https://schema.org/SocialMediaPosting
+schema-blogposting	primary-en	a	schema.org/BlogPosting
+schema-blogposting	parent	s	schema-socialmediaposting
+schema-blogposting	tag-field	s	schema-tag-type	schema
+schema-blogposting	tag-field	s	schema-uri	https://schema.org/BlogPosting
+schema-mediaobject	primary-en	a	schema.org/MediaObject
+schema-mediaobject	parent	s	schema-creativework
+schema-mediaobject	tag-field	s	schema-tag-type	schema
+schema-mediaobject	tag-field	s	schema-uri	https://schema.org/MediaObject
+schema-audioobject	primary-en	a	schema.org/AudioObject
+schema-audioobject	parent	s	schema-mediaobject
+schema-audioobject	tag-field	s	schema-tag-type	schema
+schema-audioobject	tag-field	s	schema-uri	https://schema.org/AudioObject
+schema-videoobject	primary-en	a	schema.org/VideoObject
+schema-videoobject	parent	s	schema-mediaobject
+schema-videoobject	tag-field	s	schema-tag-type	schema
+schema-videoobject	tag-field	s	schema-uri	https://schema.org/VideoObject
+schema-event	primary-en	a	schema.org/Event
+schema-event	parent	s	schema-thing
+schema-event	tag-field	s	schema-tag-type	schema
+schema-event	tag-field	s	schema-uri	https://schema.org/Event
+schema-person	primary-en	a	schema.org/Person
+schema-person	parent	s	schema-thing
+schema-person	tag-field	s	schema-tag-type	schema
+schema-person	tag-field	s	schema-uri	https://schema.org/Person
