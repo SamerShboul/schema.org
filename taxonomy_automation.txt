@@ -1,7 +1,0 @@
-automation	primary-en	a	Automation
-automation	type-target	a	publication
-test-tag-1	parent	s	automation
-test-tag-1	primary-en	a	Test Tag 1
-test-tag-2	parent	s	automation
-test-tag-2	primary-en	a	Test Tag 2
-
